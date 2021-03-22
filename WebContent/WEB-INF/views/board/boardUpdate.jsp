@@ -113,7 +113,7 @@
 	<input name="boardNum" type="hidden" value="${boardNum}">
 	<input name="boardType" type="hidden" value="${boardType}">
 	<input type="hidden" value="${boardUpdate.creator}" name="creator">
-	<input type="hidden" value="<%= userName %>" name="modifier">
+	<input type="hidden" value="<%= userId %>" name="modifier">
 </form>	
 </body>
 </html>

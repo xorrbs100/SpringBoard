@@ -113,7 +113,7 @@
 						Writer
 						</td>
 						<td>
-						<%=userName %>
+						<%=userId %>
 						</td>
 					</tr>
 				</table>
@@ -125,7 +125,7 @@
 			</td>
 		</tr>
 	</table>
-	<input type="hidden" value="<%= userName %>" name="creator">
+	<input type="hidden" value="<%= userId %>" name="creator">
 </form>	
 </body>
 </html>

@@ -48,7 +48,7 @@ if(session.getAttribute("ses")!=null){
 	<%
 		if(userId==null){ %>
 
-	<% } else{ 	out.println("<td algin='left'>"+"userName:"+userName+"</td>"); %>
+	<% } else{ 	out.println("<td algin='left'>"+"userID:"+userId+"</td>"); %>
 	
 	<%} %>
 		<td align="right" width ='330'>
